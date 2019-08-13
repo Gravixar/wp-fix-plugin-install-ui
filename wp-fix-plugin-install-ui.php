@@ -10,13 +10,8 @@
  */
 
 // If this file is called directly, abort.
-if ( ! defined( 'ABSPATH' ) ) {
-	die;
-}
-// If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
-	die;
-}
+defined( 'ABSPATH' ) or die;
+defined( 'WPINC' ) or die;
 
 add_action('admin_head', 'fm_clean_plugin_info_screen');
 
