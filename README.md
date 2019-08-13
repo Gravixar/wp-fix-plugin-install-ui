@@ -8,4 +8,4 @@ The current Wordpress install screen is broken.
 
 ## The Solution
 
-Download this plugin's ziup file and upload to your wordpress site.
+Download this plugin's zip file and upload to your wordpress site.
