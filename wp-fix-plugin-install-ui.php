@@ -8,7 +8,16 @@
  * Author: Fahad Murtaza
  * Author URI: https://fahdmurtaza.com
  */
- 
+
+// If this file is called directly, abort.
+if ( ! defined( 'ABSPATH' ) ) {
+	die;
+}
+// If this file is called directly, abort.
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
+
 add_action('admin_head', 'fm_clean_plugin_info_screen');
 
 function fm_clean_plugin_info_screen() {
